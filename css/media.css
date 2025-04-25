@@ -141,6 +141,8 @@
 
     .hero__button {
         font-size: 28px;
+        padding: 22px;
+        max-width: 600px;
     }
 
     /* Mobile Menu */
@@ -302,6 +304,7 @@
 
     .manual__buttons-link {
         font-size: 24px;
+        padding: 15px;
     }
 
     /* Questions */
@@ -400,7 +403,7 @@
     }
 
     .footer__top-text {
-        font-size: 38px;
+        font-size: 36px;
     }
 
     .footer__top-img img {
