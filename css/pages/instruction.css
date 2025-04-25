@@ -1,0 +1,92 @@
+@import '/css/fonts.css';
+@import '/css/reset.css';
+@import '/css/global.css';
+
+@import '/css/header.css';
+@import '/css/footer.css';
+
+
+.main {
+    background: var(--accent-color);
+}
+
+.instruction {
+    padding: 150px 0 233px;
+}
+
+.instruction__inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.instruction__title {
+    font-size: 90px;
+    font-weight: 500;
+    letter-spacing: -0.384px;
+
+    margin-bottom: 17px;
+}
+
+.instriction__description {
+    font-size: 35px;
+    letter-spacing: -0.33px;
+    margin-bottom: 143px;
+}
+
+.instruction__list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    margin-bottom: 170px;
+}
+
+.instruction__item {
+    display: flex;
+    flex-direction: column;
+    gap: 18.27px;
+    max-width: 405px;
+}
+
+.instruction__item--img-xl {
+    max-width: 637px;
+}
+
+.instruction__item--img-xxl {
+    max-width: 798px;
+}
+
+.instruction__item-text {
+    font-size: 21.309px;
+    font-weight: 600;
+    letter-spacing: -0.201px;
+}
+
+.instruction__item-img {
+    width: 100%;
+}
+
+.instruction__text {
+    font-size: 90px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 1px;
+}
+
+@media (max-width: 425px) {
+    .instruction__title {
+        font-size: 18vw;
+    }
+
+    .instriction__description {
+        font-size: 28px;
+    }
+
+    .instruction__text {
+        font-size: 19vw;
+    }
+}
