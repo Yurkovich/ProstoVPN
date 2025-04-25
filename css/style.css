@@ -559,7 +559,7 @@
     }
 
     .hero__button {
-        font-size: 24px;
+        font-size: 17px;
     }
 
     /* Benefits */
@@ -612,8 +612,17 @@
 
     /* Footer */
 
+    .footer__top {
+        gap: 40px;
+        margin-bottom: 100px;
+    }
+
     .footer__top-text {
         font-size: 42px;
+    }
+
+    .footer__top-img img {
+        width: 85%;
     }
 
     .footer__list {
@@ -655,7 +664,7 @@
     }
 
     .hero__button {
-        font-size: 22px;
+        font-size: 18px;
         padding: 18px 20px;
     }
 
@@ -673,8 +682,16 @@
 
     /* Footer */
 
+    .footer__top {
+        gap: 20px;
+    }
+
     .footer__top-text {
         font-size: 38px;
+    }
+
+    .footer__top-img img {
+        width: 70%;
     }
 
     .footer__link {
@@ -695,7 +712,7 @@
     }
 
     .hero__button {
-        font-size: 23px;
+        font-size: 14px;
     }
 
     /* Benefits */
@@ -739,12 +756,20 @@
 
     /* Footer */
 
+    .footer__top {
+        gap: 10px;
+    }
+
     .footer__top-text {
         font-size: 32px;
     }
 
+    .footer__top-img {
+        min-height: 200px;
+    }
+
     .footer__top-img img {
-        width: 85%;
+        width: 60%;
     }
 
     .footer__link {
