@@ -15,6 +15,10 @@ html {
     background: var(--general-bg);
 }
 
+html, body{
+    height: 100%;
+}
+
 .wrapper {
     min-height: 100%;
     width: 100%;
