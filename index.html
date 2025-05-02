@@ -8,8 +8,18 @@
     <meta name="description"
         content="ProstoVPN: бесплатный и быстрый VPN без настроек. Подписывайтесь на Telegram-канал и получайте конфиг мгновенно. Используем VLESS+Reality для максимальной безопасности.">
     <link rel="shortcut icon" href="img/icon/favicon.png" type="image/x-icon">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.css" media="print" onload="this.media='all'">
     <link rel="stylesheet" href="css/media.css">
+    <style>
+        .hero__description {
+            text-align: center;
+            font-family: Montserrat;
+            font-size: 41px;
+            max-width: 827px;
+            margin-bottom: 180px;
+            letter-spacing: -0.33px;
+        }
+    </style>
 
 </head>
 
@@ -167,7 +177,7 @@
                             <li class="questions__item questions__item--user">
                                 <div class="questions__item-img-wrapper">
                                     <img class="questions__item-img" src="img/questions/user-msg.svg" loading="lazy">
-                                        alt="Диалогое окно пользователя">
+                                    alt="Диалогое окно пользователя">
                                     <div class="questions__item-text">
                                         <p class="questions__item-name">Вадим:</p>
                                         <p class="questions__item-message">Это бесплатно?</p>
@@ -177,7 +187,7 @@
                             <li class="questions__item questions__item--manager">
                                 <div class="questions__item-img-wrapper">
                                     <img class="questions__item-img" src="img/questions/manager-msg.svg" loading="lazy">
-                                        alt="Диалогое окно менеджера">
+                                    alt="Диалогое окно менеджера">
                                     <div class="questions__item-text">
                                         <p class="questions__item-name">Менеджер:</p>
                                         <p class="questions__item-message">Да. Пока ты подписан на наш канал —
@@ -189,7 +199,7 @@
                             <li class="questions__item questions__item--user">
                                 <div class="questions__item-img-wrapper">
                                     <img class="questions__item-img" src="img/questions/user-msg.svg" loading="lazy">
-                                        alt="Диалогое окно пользователя">
+                                    alt="Диалогое окно пользователя">
                                     <div class="questions__item-text">
                                         <p class="questions__item-name">Мирон:</p>
                                         <p class="questions__item-message">А как вы зарабатываете?</p>
@@ -199,7 +209,7 @@
                             <li class="questions__item questions__item--manager">
                                 <div class="questions__item-img-wrapper">
                                     <img class="questions__item-img" src="img/questions/manager-msg.svg" loading="lazy">
-                                        alt="Диалогое окно менеджера">
+                                    alt="Диалогое окно менеджера">
                                     <div class="questions__item-text">
                                         <p class="questions__item-name">Менеджер:</p>
                                         <p class="questions__item-message">Позже мы добавим платные функции. <br>
@@ -211,7 +221,7 @@
                             <li class="questions__item questions__item--user">
                                 <div class="questions__item-img-wrapper">
                                     <img class="questions__item-img" src="img/questions/user-msg.svg" loading="lazy">
-                                        alt="Диалогое окно пользователя">
+                                    alt="Диалогое окно пользователя">
                                     <div class="questions__item-text">
                                         <p class="questions__item-name">Намай:</p>
                                         <p class="questions__item-message">Это безопасно?</p>
@@ -221,7 +231,7 @@
                             <li class="questions__item questions__item--manager">
                                 <div class="questions__item-img-wrapper">
                                     <img class="questions__item-img" src="img/questions/manager-msg.svg" loading="lazy">
-                                        alt="Диалогое окно менеджера">
+                                    alt="Диалогое окно менеджера">
                                     <div class="questions__item-text">
                                         <p class="questions__item-name">Менеджер:</p>
                                         <p class="questions__item-message">Да. Мы используем VLESS+Reality, одно <br>
@@ -233,7 +243,7 @@
                             <li class="questions__item questions__item--user">
                                 <div class="questions__item-img-wrapper">
                                     <img class="questions__item-img" src="img/questions/user-msg.svg" loading="lazy">
-                                        alt="Диалогое окно пользователя">
+                                    alt="Диалогое окно пользователя">
                                     <div class="questions__item-text">
                                         <p class="questions__item-name">Сергей:</p>
                                         <p class="questions__item-message">Что будет, если я отпишусь от канала?</p>
@@ -243,7 +253,7 @@
                             <li class="questions__item questions__item--manager">
                                 <div class="questions__item-img-wrapper">
                                     <img class="questions__item-img" src="img/questions/manager-msg.svg" loading="lazy">
-                                        alt="Диалогое окно менеджера">
+                                    alt="Диалогое окно менеджера">
                                     <div class="questions__item-text">
                                         <p class="questions__item-name">Менеджер:</p>
                                         <p class="questions__item-message">Доступ будет приостановлен. Можно подписаться
@@ -292,8 +302,8 @@
 
     </div>
 
-    <script src="js/SmoothScroll.min.js"></script>
-    <script src="js/main.js"></script>
+    <script src="js/SmoothScroll.min.js" defer></script>
+    <script src="js/main.js" defer></script>
 
 </body>
 
