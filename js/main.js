@@ -60,3 +60,11 @@ SmoothScroll({
     pulseNormalize: 1,
     touchpadSupport: true,
 })
+
+// Отключение поведения для отключенной кнопки
+
+document.querySelectorAll('.manual__buttons-link--disable').forEach(link => {
+    link.addEventListener('click', function (event) {
+        event.preventDefault();
+    });
+});
